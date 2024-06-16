@@ -1,0 +1,24 @@
+{
+  "name": "sltxt",
+  "version": "1.0.0",
+  "description": "SLT usage meter integarion for NZXT Kraken",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashith/SLTXT.git"
+  },
+  "author": "Yashith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashith/SLTXT/issues"
+  },
+  "homepage": "https://github.com/yashith/SLTXT#readme",
+  "dependencies": {
+    "@nzxt/web-integrations-types": "^0.2.2",
+    "express": "^4.18.2",
+    "node-windows": "^1.0.0-beta.8"
+  }
+}
